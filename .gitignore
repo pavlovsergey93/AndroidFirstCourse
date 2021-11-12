@@ -17,3 +17,8 @@ local.properties
 app/libs
 app/src/test
 app/src/androidTest
+build.gradle
+gradle.properties
+gradlew
+gradlew.bat
+settings.gradle
