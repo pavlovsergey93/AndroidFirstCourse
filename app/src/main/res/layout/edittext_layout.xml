@@ -22,8 +22,9 @@
 
     <EditText
         android:id="@+id/phone"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:ems="13"
         android:hint="Phone"
         android:inputType="phone" />
 
@@ -50,32 +51,39 @@
 
     <EditText
         android:id="@+id/data"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:ems="10"
         android:hint="data"
-        android:inputType="date"/>
+        android:inputType="date" />
+
     <EditText
         android:id="@+id/datatime"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="datetime"
-        android:hint="datatime"/>
+        android:ems="10"
+        android:hint="datatime"
+        android:inputType="datetime" />
+
     <EditText
         android:id="@+id/time"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="time"
-        android:hint="time"/>
+        android:ems="10"
+        android:hint="time"
+        android:inputType="time" />
+
     <EditText
         android:id="@+id/visible_password"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="textVisiblePassword"
-        android:hint="visible_password"/>
+        android:ems="10"
+        android:hint="visible_password"
+        android:inputType="textVisiblePassword" />
+
     <CalendarView
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
-
 
 
 </LinearLayout>
